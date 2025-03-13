@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	myslice1 := make([]int{})
+	myslice1 := make([]int, 5, 8)
 	fmt.Printf("myslice1 = %v\n", myslice1)
 	fmt.Printf("length = %d\n", len(myslice1))
 	fmt.Printf("capacity = %d\n", cap(myslice1))
